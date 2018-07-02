@@ -1,5 +1,6 @@
 function (user, context, callback) {
     // console.log(user);
+   
     var data = {
       locale: user.locale,
       createdAt: user.created_at,
